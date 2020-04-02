@@ -71,3 +71,23 @@ typeof selectedColors;
 
 // Array Property
 console.log(selectedColors.length);
+
+// Function
+function greet(firstName,lastName) {
+  console.log('Hello ' + firstName +' ' + lastName);
+};
+
+greet('Shahidul','Raihan');
+greet(0,85);
+
+// Types of function
+
+// Calculating a value
+
+function square(number){
+  return number * number;
+};
+
+let number = square(6);
+
+console.log(number);
